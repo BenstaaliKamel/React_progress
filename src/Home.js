@@ -18,7 +18,7 @@ const Home = () => {
   useEffect(() => {
     console.log('use effect ran');
     console.log(blogs);
-  })
+  }, [name])
 
   return (
     <div className="home">
